@@ -48,7 +48,7 @@ public class programa {
 	}
 
 	private void extraerInfoPrimera(Document doc) {
-		Elements secciones_de_informaccion = doc.select("div.lemma.featured");
+		Elements secciones_de_informaccion = doc.select("div.lemma");
 
 		for (Element element : secciones_de_informaccion) {
 			
